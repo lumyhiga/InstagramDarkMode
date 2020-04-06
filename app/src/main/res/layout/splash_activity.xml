@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_colored_dark_background"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/ic_ig_simple_logo"
+        android:layout_width="98dp"
+        android:layout_height="98dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/ic_ig_simple_col"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_fb_blue_logo"
+        android:layout_width="100dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="64dp"
+        android:src="@drawable/img_fb_blue_logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txt_from_fb"
+        android:layout_width="wrap_content"
+        android:layout_height="20dp"
+        android:layout_marginTop="357dp"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/klavikabold"
+        android:text="from"
+        android:textAlignment="center"
+        android:textColor="#D9FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/img_fb_blue_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ic_ig_simple_logo"
+        app:layout_constraintVertical_bias="1.0" />
+</androidx.constraintlayout.widget.ConstraintLayout>
